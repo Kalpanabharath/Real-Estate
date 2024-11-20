@@ -6,7 +6,9 @@ const Header = () => {
   return (
     <div
       className="min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden"
-      style={{ backgroundImage: "url('/Real-Estate/header_img.png')" }}
+      style={{
+        backgroundImage: `url('${import.meta.env.BASE_URL}header_img.png')`,
+      }}
       id="Header"
     >
       <Navbar />
