@@ -2,6 +2,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
+  base: "/Real-Estate/", // Use your repository name here
   plugins: [react()],
-  base: "/Real-Estate/",
 });
